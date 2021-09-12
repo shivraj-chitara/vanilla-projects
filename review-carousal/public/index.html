@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Carousal</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="w-full h-screen bg-gray-300 flex items-center">
+      <section
+        class="w-3/5 h-auto m-auto flex flex-col justify-center items-center"
+      >
+        <!-- heading -->
+        <div class="flex flex-col items-center py-12">
+          <h1 class="text-center text-4xl font-bold">Our Reviews</h1>
+          <div class="w-2/5 h-1 bg-blue-600"></div>
+        </div>
+
+        <!-- card -->
+        <div
+          class="
+            bg-white
+            w-4/5
+            flex flex-col
+            items-center
+            justify-center
+            p-10
+            rounded-lg
+          "
+        >
+          <div class="w-1/4">
+            <img
+              src=""
+              alt=""
+              class="user-img rounded-full w-full bg-cover pb-2"
+            />
+          </div>
+          <p class="user-name text-lg font-semibold pb-2"></p>
+          <p class="job text-sm uppercase text-blue-600 pb-2"></p>
+          <p class="info"></p>
+          <div class="flex py-5 gap-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 prevbtn"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="cyan"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 nextbtn"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="cyan"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+          <button class="randombtn p-2 border-2 rounded-lg border-blue-500">
+            Surprise me
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

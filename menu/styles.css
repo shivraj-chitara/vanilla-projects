@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+.food-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.food-card {
+  width: 47%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 10px;
+  /* border: 2px solid red; */
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.fimg {
+  width: 40%;
+  /* border: 2px solid red; */
+}
+img {
+  width: 100%;
+}
+.fdetail {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}

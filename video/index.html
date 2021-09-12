@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loading preloader">
+      <img
+        src="https://vannilla-js-basic-project-9-video-preloader.netlify.app/preloader.gif"
+        alt=""
+      />
+    </div>
+
+    <main class="hidden">
+      <section>
+        <h1>Video Project</h1>
+        <video
+          class="video-container"
+          muted
+          autoplay
+          loop
+          src="https://vannilla-js-basic-project-9-video-preloader.netlify.app/video.mp4"
+        ></video>
+      </section>
+      <div class="btn">
+        <div class="play">play</div>
+        <div class="pause">pause</div>
+      </div>
+      <div class="slide moveL"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

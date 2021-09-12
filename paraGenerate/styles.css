@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 30%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0;
+  /* border: 2px solid red; */
+}
+input {
+  width: 50px;
+}
+section {
+  width: 60%;
+  /* border: 2px solid red; */
+  padding: 20px;
+}
+p {
+  padding: 10px 0;
+  text-align: center;
+}

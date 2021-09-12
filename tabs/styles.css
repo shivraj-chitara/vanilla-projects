@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(210, 36%, 96%);
+}
+main {
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  margin: 50px;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  /* border: 2px solid red; */
+  background-color: white;
+  margin-top: 100px;
+}
+.tab-top {
+  width: 100%;
+
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  /* border: 2px solid blue; */
+  background-color: gainsboro;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  border-right: 1px solid black;
+  padding: 10px 0;
+}
+.title:last-child {
+  border: none;
+}
+.tab-bottom {
+  width: 100%;
+  padding: 25px;
+}
+.para {
+  display: none;
+}
+.active {
+  display: block;
+}
+.white {
+  background-color: white;
+}

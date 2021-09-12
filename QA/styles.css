@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 60%;
+  border: 2px solid red;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+svg {
+  width: 20px;
+}
+.qsn {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ans {
+  width: 100%;
+  padding: 20px 0;
+  border-top: 2px solid black;
+}
+.rotate {
+  transform: rotate(45deg);
+}
+.hidden {
+  display: none;
+}
+.active {
+  display: block;
+}
